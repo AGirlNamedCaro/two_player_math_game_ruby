@@ -18,12 +18,11 @@
 - Math
   - Random number generator
   - Correct answer
+  -Checks if CA === PI
 - Player
   - Player lives
   - Player input
 
-- Correct Answer
-  - Checks if player input == correct answer
 
 # Task2
 
@@ -35,8 +34,6 @@
   - Calculates the player's lives/Scores
   - Handles player input
 
-- Calculate answer
-  - Grabs the correct answer and player input & checks them
   
 
 

@@ -1,16 +1,23 @@
 class Player
   def initialize 
-   @score1 = '3/3'
-   @score2 = '3/3'
+   @score = '3/3'
+
   end
+
+  def name=(name) 
+    @name = name
+  end
+
+  def update_score=(new_score)
+    @score = new_score
+  end
+
+
 
   def get_input=(input)
     @input = input
   end
 
-  def scores
-    
-  end
 
 
 
@@ -19,7 +26,8 @@ class Player
 
   attr_writer :input
   attr_reader :input
-  attr_reader :score1
-  attr_reader :score2
+  attr_reader :score
+  attr_reader :name
+
 
 end
